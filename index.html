@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The chore list app is as you would expect, a place to input your chores. A basic todo list app that involves us to make use of everything we have learn't so far in the course.">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Chore List | Module 3 | Scrimba</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+
+    </header>
+
+    <main class="main">
+        <section class="section-padding section-hero">
+            <div class="container container--hero">
+                <div class="hero grid grid--2-cols grid--center-v">
+                    <!-- theme switcher -->
+                    <label class="theme-btn">
+                        <input type="checkbox" id="theme-checkbox" class="theme-checkbox">
+
+                        <div class="theme-btn-handle"></div>
+                        <div class="theme-container">
+                            <div class="theme-box light-box">
+                                <ion-icon name="sunny" class="theme-icons sun-icon"></ion-icon>
+                            </div>
+                            <div class="theme-box dark-box">
+                                <ion-icon name="moon" class="theme-icons moon-icon"></ion-icon>
+                            </div>
+                        </div>
+                    </label>
+
+                    <!-- hero text box -->
+                    <div class="hero-text-box">
+                        <span class="pre-heading">Module 3</span>
+                        <h1 class="heading-primary">
+                            Chores List
+                        </h1>
+                        <p class="hero-text">
+                            The chore list app is as you would expect, a place to input your chores. A basic todo list
+                            app that involves us to make
+                            use of everything we have learn't so far in the course.
+                        </p>
+                        <a href="https://github.com/awcoetzer/chore-list" target="_blank"
+                            class="link link--hero margin-right-sm">
+                            Project Repo
+                        </a>
+                        <a href="https://scrimba.com/bootcamp" target="_blank" class="link link--hero scrimba">
+                            Learn at Scrimba
+                        </a>
+                    </div>
+
+                    <!-- hero image box -->
+                    <picture class="hero-img-box">
+                        <source srcset="" type="image/webp" class="hero-img-source-el">
+                        <source srcset="" type="image/png" class="hero-img-source-el">
+
+                        <img src="" alt="" class="hero-img">
+                    </picture>
+                    </di.v>
+                </div>
+        </section>
+
+        <!-- chores list -->
+        <div class="section section-padding section-project">
+            <div class="container">
+                <span class="pre-heading">
+                    Required & Stretch Goal Version
+                </span>
+                <h2 class="heading-secondary">
+                    Chores List
+                </h2>
+            </div>
+
+            <div class="chores-list">
+                <div class="container">
+                    <div class="project-box">
+                        <!-- project header -->
+                        <div class="project-header">
+                            <span class="heading--project">
+                                Chores List
+                            </span>
+                            <div class="user-input-box">
+                                <input type="text" id="input-field" class="input-field" placeholder="Do dishes">
+                                <div class="btn-container">
+                                    <button id="btn-add" class="chore-btns">-></button>
+                                    <button id="btn-delete-all" class="chore-btns">✕</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- project body -->
+                        <div class="project-body">
+                            <ul class="chores-text-box">
+                                <li class="chores">Do the laundry</li>
+                                <li class="chores">Do the laundry</li>
+                                <li class="chores">Do the laundry</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="section-padding section-footer">
+        <div class="container">
+            <div class="footer-text-box center-text">
+                <p class="done-by">
+                    This project was done by
+                    <a href="https://github.com/awcoetzer" class="done-by--link" target="_blank">
+                        Andre W. Coetzer
+                    </a> |
+                    <a href="https://www.freepik.com/author/catalyststuff" target="_blank" class="done-by--link">
+                        Images by catalyststuff
+                    </a> on Freepik
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/javascript/themes.js" type="Module"></script>
+    <script src="./assets/javascript/site.js" type="Module"></script>
+    <script src="./assets/javascript/app.js" type="Module"></script>
+</body>
+
+</html>
