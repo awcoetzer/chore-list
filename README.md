@@ -81,7 +81,7 @@ We were given a figma <a href="https://www.figma.com/file/33d1A1EIEkBRHTnW1M4Wv8
 - Figma file can be found <a href="https://www.figma.com/file/33d1A1EIEkBRHTnW1M4Wv8/Choreslist?node-id=0%3A1" target="_blank" alt="Link to the Fogma design file">here</a>
 - Font used within project
   - ```html
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     ```
