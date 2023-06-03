@@ -1,4 +1,4 @@
-#### <a href="https://scrimba.com" target="_blank" alt="Scrimba's website">SCRIMBA | MODULE 3 | CHORE LIST</a> 
+#### <a href="https://scrimba.com" target="_blank" alt="Scrimba's website">SCRIMBA | MODULE 3 | CHORES LIST</a> 
 
 This is a solo project by <a href="https://scrimba.com/learn/frontend" target="_blank" alt="Scrimba's frontend career path web page">Scrimba's Frontend Career Path</a> for bootcamp members
 
@@ -11,7 +11,7 @@ This is a solo project by <a href="https://scrimba.com/learn/frontend" target="_
 #### ABOUT
 ## What is the project all about?
 
-The chore list app is as you would expect, a place to input your chores. A basic todo list app that involves us to make use of everything we have learn't so far in the course.
+The chores list app is as you would expect, a place to input your chores. A basic todo list app that involves us to make use of everything we have learn't so far in the course.
 
 We were given a figma <a href="https://www.figma.com/file/33d1A1EIEkBRHTnW1M4Wv8/Choreslist?node-id=0%3A1" target="_blank" alt="Link to the Fogma design file">file</a> from which to design off of and given requirements & stretch goals to can complete the project, list can be seen [here](#project-goals--stretch-goals).
 
