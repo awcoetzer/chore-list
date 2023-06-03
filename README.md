@@ -20,7 +20,15 @@ We were given a figma <a href="https://www.figma.com/file/33d1A1EIEkBRHTnW1M4Wv8
 #### PROJECT SCREENS
 ## How the project looks
 
-<img src="./assets/images/readme/full-project.png" width="50%" alt="screenshot of project, full size version"> <img src="./assets/images/readme/full-project-responsive.png" width="11.95%" alt="screenshot of project, responsive version">
+<img src="./assets/images/readme/full-project-light.png" width="50%" alt="screenshot of project, full size version light theme"> <img src="./assets/images/readme/full-project-responsive-light.png" width="11.76%" alt="screenshot of project, responsive version light theme">
+
+<img src="./assets/images/readme/full-project-dark.png" width="50%" alt="screenshot of project, full size version dark theme"> <img src="./assets/images/readme/full-project-responsive-dark.png" width="11.76%" alt="screenshot of project, responsive version dark theme">
+
+<img src="./assets/images/readme/preview-switch-toggle.gif" width="50%" alt="screenshot of project, responsive version"> 
+
+<img src="./assets/images/readme/preview-toggle-hero.gif" width="50%" alt="screenshot of project, full size version">
+
+<img src="./assets/images/readme/preview-killer-chicken.gif" width="50%" alt="screenshot of project, responsive version">
 
 <br>
 
