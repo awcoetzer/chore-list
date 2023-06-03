@@ -525,11 +525,13 @@ body {
     bottom: 0;
     left: 0;
     transform: translate(50%, 110%);
+    opacity: 0;
     transition: transform 0.15s ease-out;
 }
 
 .surprise-chicken-container.surprise {
     transform: translate(50%, 6%);
+    opacity: 1;
 }
 
 .surprise-chicken-container.surprise-over {
@@ -591,6 +593,7 @@ body {
 }
 
 .chores {
+    text-align: center;
     border-radius: 1rem;
     width: 100%;
     height: 9.2rem;
