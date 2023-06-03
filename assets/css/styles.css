@@ -463,6 +463,16 @@ body {
     z-index: 1 !important;
 }
 
+.character-counter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    font-size: var(--font-18);
+    font-weight: var(--font-weight-500);
+    color: var(--clr-paragraph-placeholder);
+}
+
 .input-field::placeholder {
     color: var(--clr-paragraph-placeholder);
 }
@@ -489,6 +499,7 @@ body {
     width: 100%;
 }
 
+/* This is when the chicken activates and starts going down */
 .slow-chicken {
     animation: slow-chicken 3s linear forwards;
 }
@@ -502,6 +513,40 @@ body {
         transform: translate(-6%, 110%);
     }
 }
+
+/* 
+    This is for the chicken at the bottom of the html
+    body, I decided to place it with the other chickens 
+    properties even though its further down the body
+    on the html file.
+*/
+.surprise-chicken-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: translate(50%, 110%);
+    transition: transform 0.15s ease-out;
+}
+
+.surprise-chicken-container.surprise {
+    transform: translate(50%, 6%);
+}
+
+.surprise-chicken-container.surprise-over {
+    animation: surprise-over 2.5s linear forwards;
+}
+
+@keyframes surprise-over {
+    0% {
+        transform: translate(50%, 6%);
+    }
+
+    100% {
+        transform: translate(50%, 110%);
+    }
+}
+
+.surprise-chicken {}
 
 .btn-container {
     display: flex;
@@ -558,36 +603,28 @@ body {
     background-color: var(--clr-accent-tintier);
     line-height: 3.6rem;
     cursor: pointer;
+    user-select: none;
 }
 
-.surprise-chicken-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    transform: translate(50%, 110%);
-    transition: transform 0.15s ease-out;
+.welldone-header {
+    text-align: center;
+    align-self: flex-end;
+    margin: var(--spacing-24) var(--spacing-24) 0 0;
+    font-size: var(--font-10);
+    font-weight: var(--font-weight-500);
+    line-height: var(--line-height-15);
+    letter-spacing: var(--letter-space-p1);
+    text-transform: uppercase;
+    color: var(--clr-paragraph);
 }
 
-.surprise-chicken-container.surprise {
-    transform: translate(50%, 6%);
+.welldone-gif {
+    border: 2px solid var(--clr-stroke);
+    border-radius: 1rem;
+    width: 100%;
+    box-shadow: 0 0 0.5rem -0.1rem var(--clr-shadow);
+    cursor: pointer;
 }
-
-.surprise-chicken-container.surprise-over {
-    animation: surprise-over 2.5s linear forwards;
-}
-
-@keyframes surprise-over {
-    0% {
-        transform: translate(50%, 6%);
-    }
-
-    100% {
-        transform: translate(50%, 110%);
-    }
-}
-
-.surprise-chicken {}
-
 
 /* section-footer */
 .done-by {
