@@ -18,7 +18,7 @@ pinkPanther.volume = 0.3;
     Below is what selects and displays the random welldone gif
 */
 const randomGif = function () {
-    const randomNum = Math.floor(Math.random() * 20);
+    const randomNum = Math.floor(Math.random() * 11);
     const gifPath = './assets/images/project/welldone'
 
     choresContainerEl.innerHTML = `
